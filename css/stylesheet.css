@@ -1,0 +1,186 @@
+.header{
+    background-color: lightgrey;
+}
+.navbar-header{
+    background-color: lightgoldenrodyellow;
+    height: 22px;
+}
+.navbar-header td{
+    padding-right: 20px;
+    padding-left: 20px;
+}
+.navbar-selected{
+    background-color: lightslategray;
+    border: solid 1px black;
+}
+.side-bar-right{
+    background-color: lightgray;
+    height:100%;
+}
+.side-bar-right table tr td{
+    padding-top: 10px;
+    border-bottom: solid 1px black;
+}
+.formtable tr td{
+    padding-bottom: 5px;
+    width: 250px;
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}
+
+label {
+    font-weight: bold;
+    font-size: 14px;
+}
+.form-container-outer{
+    width:750px;
+    border: solid 1px #333333;
+
+}
+.form-container-inner{
+    margin:30px;
+}
+.form-container-title{
+    background-color:#333333;
+    color:#FFFFFF;
+    padding:3px;
+}
+.table-container-fancy{
+    margin-top: 25px;
+    border: 1px solid black;
+    width: 650px;
+    position: relative;
+}
+.table-container-fancy tr td{
+    padding-top: 5px;
+    padding-left: 5px;
+    padding-bottom: 5px;
+    width: 300px;
+}
+.table-container-fancy tr th{
+    padding-top: 10px;
+    padding-left: 5px;
+    width: 300px;
+}
+.table-container-fancy .table-title span {
+    position: absolute;
+    display: block;
+    top: -9px;
+    background-color: white;
+    padding: 0 10px;
+}
+.table-container-noborder{
+     margin-top: 25px;
+     width: 650px;
+     position: relative;
+ }
+.table-container-noborder tr td{
+    padding-top: 5px;
+    padding-left: 5px;
+    padding-bottom: 5px;
+    width: 300px;
+}
+.stayTop{
+    vertical-align: top;
+}
+
+
+/* Welkoms pagina */
+.outer{
+    display: table;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+}
+.middle{
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.welkom-block{
+    height: 400px;
+    width: 350px;
+    margin: 12px;
+    background-color: lightsteelblue;
+    border-radius: 18px;
+    box-shadow: 5px 5px 5px grey;
+    position: relative;
+}
+.welkom-block input[type='button']{
+    position: absolute;
+    bottom: 25px;
+}
+/*css voor de filter die bij somige lijsten beschikbaar zijn.*/
+.select-row-a {
+    width: 100%;
+    display: block
+
+}
+.select-row-a:link {
+    text-decoration: none;
+    color: black;
+}
+.select-row-a:visited {
+    text-decoration: none;
+    color: black;
+}
+.select-row-a:hover {
+    text-decoration: none;
+    color: black;
+}
+.select-row-a:active {
+    text-decoration: none;
+    color: black;
+}
+.full-list-opdrachten {
+    width: 100%;
+}
+
+.full-list-opdrachten tr {
+    border: solid 1px black;
+}
+
+.full-list-opdrachten tbody tr:hover {
+    background-color: #2aabd2;
+}
+
+.full-list-opdrachten tr td {
+    border-left: solid 1px black;
+    border-right: solid 1px black;
+    text-align: right;
+    word-break: break-all;
+    word-wrap:break-word;
+}
+
+.full-list-opdrachten tr th {
+    border-left: solid 1px black;
+    border-right: solid 1px black;
+    text-align: center;
+}
+.filterable .filters input[disabled] {
+    background-color: transparent;
+    border: none;
+    cursor: auto;
+    box-shadow: none;
+    padding: 0;
+    height: auto;
+}
+.filterable .filters input[disabled]::-webkit-input-placeholder {
+    color: #333;
+}
+.filterable .filters input[disabled]::-moz-placeholder {
+    color: #333;
+}
+.filterable .filters input[disabled]:-ms-input-placeholder {
+    color: #333;
+}
+.table-header{
+    padding-left: 10px;
+}
+.table-documenten  {
+    border-bottom: solid 1px;
+}
+

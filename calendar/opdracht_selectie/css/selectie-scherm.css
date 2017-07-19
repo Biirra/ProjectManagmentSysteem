@@ -1,0 +1,27 @@
+.selectie-scherm-container{
+    height: 100%;
+    background-color: lightgray;
+    float: right;
+    align-items:center;
+}
+.selectie-scherm {
+    background-color: whitesmoke;
+    height: 500px;
+    margin-top: 25px;
+    border-radius: 5px;;
+    overflow: scroll;
+    overflow-x: hidden;
+
+}
+.selectie-list {
+    width: 100%;
+}
+.selectie-list td{
+    text-align: center;
+    border-bottom: 1px solid black;
+}
+.selectie-list label{
+    cursor: pointer;
+    margin-top: 10px;
+
+}
